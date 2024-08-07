@@ -1,0 +1,59 @@
+/* General Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Rounded font */
+    background-color: #e0f2f1; /* Light green background */
+    color: #d2b48c;        /* Beige text color */
+    text-align: center;     /* Center all content */
+}
+
+h2 {
+    margin-top: 30px;
+    font-weight: bold;     /* Emphasize titles */
+}
+
+label {
+    font-weight: bold;     /* Emphasize labels */
+}
+
+/* Form Styling */
+#client-form {
+    background-color: #fff;  /* White form background */
+    padding: 30px;          /* Add padding around form elements */
+    border-radius: 10px;     /* Round corners of the form */
+    width: 400px;            /* Set a fixed width for the form */
+    margin: 0 auto;         /* Center the form horizontally */
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;     /* Round corners of input fields */
+    width: 100%;            /* Make input fields take full width */
+    box-sizing: border-box;  /* Include padding and border in element width */
+}
+
+button {
+    background-color: #4CAF50; /* Green button */
+    color: white;             
+    cursor: pointer;
+}
+
+/* Client List Styling */
+#client-list {
+    background-color: #fff;  
+    padding: 20px;
+    border-radius: 10px;    
+    width: 500px;           /* Wider for better readability */
+    margin: 30px auto;
+}
+
+#client-list ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+}
+
+#client-list li {
+    padding: 10px;
+    border-bottom: 1px solid #eee; /* Add subtle lines between clients */
+}

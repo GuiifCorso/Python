@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Login</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <script src="{{ url_for('static', filename='script.js')}}"></script>
+    <header id="#header">
+        <div id="top_bar">
+            <h1 class="title">Basic Login</h1>
+            <h3 class="text">This website is a basic login system</h3>
+            <h5 class="sub-text">* just for study *</h5>
+        </div>
+    </header>
+    <section id="main">
+        <div id="login-box" class="main-box">
+            <h1 class="title">Login</h1>
+            <form class="info_forms" id="login_forms">
+                <label for="name_input">Name: </label>
+                <input type="text" class="name_input" id="log_name" name="lname">
+                <label for="pass_input">Password: </label>
+                <input type="password" class="pass_input" id="log_pass" name="lpassword">
+                <button type="submit" id="login_btn">Login</button>
+                <div id="log_res"></div>
+            </form>
+        </div>
+        <div id="register_box" class="main-box">
+            <h1 class="title">Register</h1>
+            <div class="boxes">
+                <form class="info_forms" id="reg_forms">
+                    <label for="name_input">Name: </label>
+                    <input type="text" class="name_input" id="reg_name" name="rname">
+                    <label for="pass_input">Password: </label>
+                    <input type="password" class="pass_input" id="reg_pass" name="rpassword">
+                    <button type="submit" id="reg_btn">Register</button>
+                    <div id="reg_res"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h3 class="text">&copy;Guilherme Fernandes Corso</h1>
+    </footer>
+</body>
+</html>

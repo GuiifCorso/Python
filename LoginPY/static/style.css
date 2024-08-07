@@ -1,0 +1,80 @@
+/* Geral */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte arredondada */
+    background-color: #e0f5ff; /* Azul claro suave */
+    margin: 0;                 /* Remove as margens padrão do body */
+    color: #333;              /* Cor de texto cinza escuro */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #007bff;  /* Azul do cabeçalho */
+    color: #fff;               /* Texto branco no cabeçalho */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 12px 0 rgb(64, 62, 62);
+    margin-bottom: 60px;
+}
+
+.title {
+    margin: 0;
+}
+
+.text, .sub-text {
+    font-weight: normal;  /* Fonte normal para os subtítulos */
+}
+
+/* Seção Principal */
+#main {
+    display: flex;                   /* Alinha as caixas lado a lado */
+    justify-content: space-around;  /* Espaço entre as caixas */
+    padding: 30px;
+}
+
+.main-box {
+    background-color: #f8f9fa;     /* Cinza claro para as caixas */
+    padding: 30px;
+    border-radius: 15px;        /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra sutil */
+    width: 400px;                 /* Largura das caixas */
+    text-align: center;
+}
+
+/* Formulários */
+.info_forms {
+    text-align: center;          /* Centraliza o conteúdo dos formulários */
+}
+
+label {
+    display: block;             /* Coloca labels em linhas separadas */
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"] {
+    width: calc(100% - 20px); /* Ocupa a largura total com espaço para padding */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;       /* Cantos arredondados */
+}
+
+button[type="submit"] {
+    background-color: #f0ad4e;   /* Cor de fundo bege para o botão */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;         /* Cantos arredondados */
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;     /* Cinza escuro para o rodapé */
+    color: #fff;              /* Texto branco no rodapé */
+    text-align: center;
+    padding: 10px;
+    position: fixed;          /* Fixa o rodapé na parte inferior */
+    bottom: 0;
+    width: 100%;
+}
